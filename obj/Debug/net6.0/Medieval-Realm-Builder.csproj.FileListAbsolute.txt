@@ -1,0 +1,15 @@
+/home/yinyang117/Medieval-Realm-Builder/bin/Debug/net6.0/Medieval-Realm-Builder
+/home/yinyang117/Medieval-Realm-Builder/bin/Debug/net6.0/Medieval-Realm-Builder.deps.json
+/home/yinyang117/Medieval-Realm-Builder/bin/Debug/net6.0/Medieval-Realm-Builder.runtimeconfig.json
+/home/yinyang117/Medieval-Realm-Builder/bin/Debug/net6.0/Medieval-Realm-Builder.dll
+/home/yinyang117/Medieval-Realm-Builder/bin/Debug/net6.0/Medieval-Realm-Builder.pdb
+/home/yinyang117/Medieval-Realm-Builder/obj/Debug/net6.0/Medieval-Realm-Builder.csproj.AssemblyReference.cache
+/home/yinyang117/Medieval-Realm-Builder/obj/Debug/net6.0/Medieval-Realm-Builder.GeneratedMSBuildEditorConfig.editorconfig
+/home/yinyang117/Medieval-Realm-Builder/obj/Debug/net6.0/Medieval-Realm-Builder.AssemblyInfoInputs.cache
+/home/yinyang117/Medieval-Realm-Builder/obj/Debug/net6.0/Medieval-Realm-Builder.AssemblyInfo.cs
+/home/yinyang117/Medieval-Realm-Builder/obj/Debug/net6.0/Medieval-Realm-Builder.csproj.CoreCompileInputs.cache
+/home/yinyang117/Medieval-Realm-Builder/obj/Debug/net6.0/Medieval-Realm-Builder.dll
+/home/yinyang117/Medieval-Realm-Builder/obj/Debug/net6.0/refint/Medieval-Realm-Builder.dll
+/home/yinyang117/Medieval-Realm-Builder/obj/Debug/net6.0/Medieval-Realm-Builder.pdb
+/home/yinyang117/Medieval-Realm-Builder/obj/Debug/net6.0/Medieval-Realm-Builder.genruntimeconfig.cache
+/home/yinyang117/Medieval-Realm-Builder/obj/Debug/net6.0/ref/Medieval-Realm-Builder.dll
