@@ -1,0 +1,5 @@
+/home/yinyang117/Medieval-Realm-Builder/bin/Debug/net6.0/publish/Medieval-Realm-Builder
+/home/yinyang117/Medieval-Realm-Builder/bin/Debug/net6.0/publish/Medieval-Realm-Builder.dll
+/home/yinyang117/Medieval-Realm-Builder/bin/Debug/net6.0/publish/Medieval-Realm-Builder.deps.json
+/home/yinyang117/Medieval-Realm-Builder/bin/Debug/net6.0/publish/Medieval-Realm-Builder.runtimeconfig.json
+/home/yinyang117/Medieval-Realm-Builder/bin/Debug/net6.0/publish/Medieval-Realm-Builder.pdb
