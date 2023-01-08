@@ -15,9 +15,9 @@ class Building {
 
 let basicHouse = new Building(
 	"Basic House", 
-	{wood: 15}, 
+	{wood: 150}, 
 	{groundType: "dry"}, 
-	30, 
+	150, 
 	["basic"], 
 	{workforce: "villager", amount: 4},
 	"Creates and supports 4 villagers. Villager workforces can start labor tasks instantly: mining, chopping, building.",
@@ -26,9 +26,9 @@ let basicHouse = new Building(
 
 let troopBarrack = new Building(
 	"Troop Barracks",
-	{wood: 50, stone: 10},
+	{wood: 500, stone: 100},
 	{groundType: "land"},
-	140,
+	620,
 	["basic"],
 	{workforce: "recruits", amount: 10},
 	"Creates and supports 10 recruits. Recruits can be trained as soldiers faster then other workforces."
@@ -37,9 +37,9 @@ let troopBarrack = new Building(
 
 let nobilityQuarters = new Building(
 	"Nobility Quarters",
-	{stone: 50, wood: 10},
+	{stone: 500, wood: 100},
 	{groundType: "withinCastleArea"},
-	150,
+	700,
 	["skilled", "stoneCrafters"],
 	{workforce: "nobles", amount: 1},
 	"Creates and supports 1 noble. Nobles are an elite workforce, or higher tier",
@@ -76,8 +76,8 @@ General level of scale and balancing:
 		mid-high	17-18
 		high		20
 
-		So 10 wood takes 100 actions
-		10 stone takes 120-130 actions
-		10 wood with higher tools 70 actions
-		10 wood with skilled labor 80 actions
+		So 100 wood takes 100 actions
+		100 stone takes 120-130 actions
+		100 wood with higher tools 70 actions
+		100 wood with skilled labor 80 actions
 */
