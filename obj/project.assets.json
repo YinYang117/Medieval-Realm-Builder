@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/yinyang117/Medieval-Realm-Builder/Medieval-Realm-Builder.csproj",
+      "projectUniqueName": "/home/yinyang117/projects/Medieval-Realm-Builder/Medieval-Realm-Builder.csproj",
       "projectName": "Medieval-Realm-Builder",
-      "projectPath": "/home/yinyang117/Medieval-Realm-Builder/Medieval-Realm-Builder.csproj",
+      "projectPath": "/home/yinyang117/projects/Medieval-Realm-Builder/Medieval-Realm-Builder.csproj",
       "packagesPath": "/home/yinyang117/.nuget/packages/",
-      "outputPath": "/home/yinyang117/Medieval-Realm-Builder/obj/",
+      "outputPath": "/home/yinyang117/projects/Medieval-Realm-Builder/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/yinyang117/.nuget/NuGet/NuGet.Config"
