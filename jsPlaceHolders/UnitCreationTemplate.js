@@ -32,13 +32,13 @@ class UnitTemplate {
 	}
 
 	addExperience(amount) {
-		if (amount) this.experience += amount
-		if (this.experience >= (fibNums[this.level + 1] * 10)) { // checking the index 1 level higher
+		if (amount) this.experience += amount										// only adding amount once. recurse for level up messages
+		if (this.experience >= (fibNums[this.level + 1] * 10)) { 					// checking the index 1 level higher
 			this.level++
 			console.log(`${this.constructor.name} has leveled up to ${this.level}.`)
-			console.log(`Next level will be ${fibNums[this.level + 1] * 10} exp.`) // update player of next level threshold
-			this.addExperience() // if more exp gained then 1 level accounts for
-		} else if (!amount) return // basecase
+			console.log(`Next level will be ${fibNums[this.level + 1] * 10} exp.`) 	// update player of next level threshold
+			this.addExperience() 													// if more exp gained then 1 level accounts for
+		} else if (!amount) return 													// base-case for recursion
 	}
 
 }
