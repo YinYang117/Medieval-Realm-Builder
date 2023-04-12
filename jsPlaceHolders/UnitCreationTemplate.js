@@ -8,27 +8,26 @@ class UnitTemplate {
 		// Level of the template determines maxPoints
 		this.level = 1
 		// Experiece earned from gameplay causes levelups
-		this.experience = 0
+		this.experience = 10
 
 		// Main stats = attack, body, magic
-		// Sub stats = attack type, body type, magic type
-		// and sub-amounts
-		// Players will raise the 3 main stats to allow more points to go into the specific ones
-		// Players can raise substats for more fine tuned balancing	
-		this.attack = 0 // soft attack
-		this.armorPierce = 0 // hard attack
-		this.meleeAttack = this.attack
-		this.rangedAttack = this.attack
-		this.defense = 0 // soft defense
-		this.dodge = 0 // hard defense
+			// Sub stats = attack type, body type, magic type
+
+		// Players raise the 3 main stats for general roles
+			// and raise substats for more fine tuned balancing
+		this.damage = 'Will depend on weapon'	
+		this.attack = 0 				// soft attack. Might rename as skill in attacking
+		this.armorPierce = 0 			// hard attack. 
+		this.defense = 0 				// soft defense. Might rename armor
+		this.dodge = 0 					// hard defense. Might rename as skill in defense
+		this.block = (.5 * this.defense) + (.5 * this.dodge)
 		this.body = 0
 		this.hitpoints = this.body * 5
 		this.magicalCapability = 0
 		this.resourceName = "None"
-		this.resourceAmount = 0 + (this.magicalCapability * (1 - 5))
+		this.resourceAmount = this.magicalCapability * 10
 		this.magicalResist = 0
-
-		this.addExperience(10)
+		
 	}
 
 	addExperience(amount) {
@@ -37,12 +36,33 @@ class UnitTemplate {
 			this.level++
 			console.log(`${this.constructor.name} has leveled up to ${this.level}.`)
 			console.log(`Next level will be ${fibNums[this.level + 1] * 10} exp.`) 	// update player of next level threshold
-			this.addExperience() 													// if more exp gained then 1 level accounts for
+			this.addExperience() 													// if enough exp is gained for more then 1 level
 		} else if (!amount) return 													// base-case for recursion
 	}
 
+
+
 }
 
-let testunit = new UnitTemplate()
-testunit.addExperience(20)
-console.log(testunit)
+
+let scout = {
+	attack: "low",
+	defense: "low",
+	speed: "high",
+	stealth: "high",
+	skill: "high",
+	trait: "can see some information about enemies in the area"
+}
+
+let soldier = {
+	attack: "medium",
+	defense: "medium",
+}
+
+
+
+
+/*
+Notes:
+soft attack and hard attack refer to the Hearts of Iron stats setup
+*/
